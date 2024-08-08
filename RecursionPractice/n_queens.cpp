@@ -7,7 +7,7 @@ using namespace std;
 #define int long long
 
 int queens[20]; // queen[i] -> where is myqueen in row i
-int n;
+int n, k;
 
 bool check(int row, int col) {
   for (int i = 0; i < row; i++) {
