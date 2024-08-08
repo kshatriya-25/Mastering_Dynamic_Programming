@@ -8,7 +8,7 @@ using namespace std;
 
 int rec(int level, int n) {  // return what is asked in the question
 
-  // pruning
+  // pruning   m
   if (level > n) return 0;
 
   if (level == n) return 1;          // sure shot ans we know
