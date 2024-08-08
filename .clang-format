@@ -1,0 +1,4 @@
+AlignTrailingComments: false
+ColumnLimit: 1000
+ReflowComments: false
+ContinuationIndentWidth: 4
