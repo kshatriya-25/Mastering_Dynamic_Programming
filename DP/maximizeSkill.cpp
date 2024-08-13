@@ -33,6 +33,7 @@ signed main() {
   cin.tie(0);
   cout.tie(0);
   memset(dp, -1, sizeof(dp));
+  //here k is maximum number of exams and n is array size and x is time limit
   cin >> n >> x >> k;
   for (int i = 0; i < n; i++) {
     cin >> t[i] >> s[i];
