@@ -1,3 +1,7 @@
+/*OM VIGHNHARTAYE NAMO NAMAH :*/
+
+/*Here out of n items u have to select a subset whose sum is equal to the target t*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
