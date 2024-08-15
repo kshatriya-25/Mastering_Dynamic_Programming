@@ -38,6 +38,7 @@ void printlcs(int i, int j) {
   if (x[i] == y[j]) {
     cout << x[i];
     printlcs(i + 1, j + 1);
+    return;
   } else if (rec(i + 1, j) > rec(i, j + 1))
     printlcs(i + 1, j);
   else
